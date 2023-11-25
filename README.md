@@ -13,13 +13,15 @@ Before running this script, ensure that you have the necessary permissions and d
 2. Make the script executable by running the following command in your terminal:
 
    ```bash
-   chmod +x script_name.sh
+   git clone https://github.com/Lalatenduswain/Lalatenduswain-build-essential-and-development-tools.git
+   cd Lalatenduswain-build-essential-and-development-tools
+   chmod +x build-tool-essential.sh
    ```
 
 3. Execute the script with:
 
    ```bash
-   ./script_name.sh
+   ./build-tool-essential.sh
    ```
 
 4. Follow the on-screen prompts to update packages, list upgradable packages, clean the system, and install development packages.
