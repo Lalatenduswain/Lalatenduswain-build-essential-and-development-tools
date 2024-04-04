@@ -16,8 +16,11 @@ sudo apt-get install -y aptitude
 sudo aptitude install -y build-essential qtbase5-dev libglib2.0-dev libpcap-dev python3-dev flex asciidoctor
 sudo apt-get install -y libgcrypt20 libgcrypt20-dev
 
+# Update package repositories again
+sudo apt-get update
+
 # Install more packages
-sudo apt-get install -y git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev libncurses5-dev automake libtool bison libffi-dev imagemagick libmagickcore-dev libmagickwand-dev libicu-dev
+sudo apt-get install -y git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev libncurses5-dev automake libtool bison libffi-dev imagemagick libmagickcore-dev libmagickwand-dev libicu-dev libaprutil1-dev libapr1-dev
 
 echo "Installation completed!"
 
